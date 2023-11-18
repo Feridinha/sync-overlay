@@ -1,0 +1,10 @@
+{
+    "card": {
+        "no_video_playing": "No video playing",
+        "invalid_room": "Invalid room",
+        "playing_right_now": "Playing right now on",
+        "queue_size_zero": "No videos in the queue",
+        "queue_size_one": "{{count}} video in the queue",
+        "queue_size_other": "{{count}} videos in the queue"
+    }
+}

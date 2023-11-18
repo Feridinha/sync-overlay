@@ -1,0 +1,10 @@
+{
+    "card": {
+        "no_video_playing": "Nenhum vídeo tocando",
+        "invalid_room": "Sala inválida",
+        "playing_right_now": "Reproduzindo agora no",
+        "queue_size_zero": "Nenhum vídeo na fila",
+        "queue_size_one": "{{count}} vídeo na fila",
+        "queue_size_other": "{{count}} vídeos na fila"
+    }
+}

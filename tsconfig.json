@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        // "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "noUnusedLocals": false,
+        "types": [],
+        "baseUrl": "./",
+        "typeRoots": ["node_modules/@types"],
+        "paths": {
+            "@/*": ["./src/*"],
+            "@types": ["./src/../../api/src/types/responses.d.ts"]
+        }
+    },
+    "include": ["src"],
+    "exclude": ["./src/../../api/*"]
+}

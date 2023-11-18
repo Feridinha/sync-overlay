@@ -1,0 +1,79 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--foreground);
+    font-family: "Alexandria", sans-serif;
+}
+
+body,
+html {
+    background: transparent !important;
+    /* font-size: normal !important; */
+}
+
+:root {
+    font-size: 1vh;
+    /* color pallete stolen from css.gg */
+    --foreground: #dee6f3;
+    --foreground-light: #858ea1;
+    --foreground-hover: #5f687c;
+    --background: #191c28;
+    --background-2: #1e2331;
+    --background-contrast: #151822;
+    /* --background-contrast: #141822; */
+    --background-light: #242a3b;
+    --color-1: var(--hover-color);
+    --color-2: #e01a4f;
+    --color-3: #5f19dd;
+    --color-4: #0ead69;
+    --color-5: #0abab5;
+    --color-6: #24120e;
+    --color-7: #ff80bf;
+    --color-8: #9580ff;
+    --border-radius-l: 1rem;
+    --border-radius-m: calc(var(--border-radius-l) / 2);
+    --border-radius-s: calc(var(--border-radius-m) / 1.5);
+    --border-radius-ss: calc(var(--border-radius-s) / 1.25);
+}
+
+.icon {
+    user-select: none;
+    font-family: "Material Symbols Rounded";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome, Edge, Opera and Firefox */
+
+    font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 200, "opsz" 0;
+}
+
+@keyframes BackgroundMove {
+    0% {
+        background-position: 15% 0%;
+    }
+    50% {
+        background-position: 86% 100%;
+    }
+    100% {
+        background-position: 15% 0%;
+    }
+}

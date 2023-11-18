@@ -7,5 +7,5 @@
 - Made with React, styled-components, framer-motion and socket.io-client. 
 
 ## Preview:
-https://github.com/Feridinha/sync-overlay/assets/75091051/2d4d98a4-852f-4153-9d00-60bb621c8f2a
+https://github.com/Feridinha/sync-overlay/assets/75091051/56a60bf5-d15e-4ff4-a191-58a8a591be76
 
